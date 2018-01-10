@@ -1,0 +1,19 @@
+{
+
+  "manifest_version": 2,
+  "name": "Blokkify:",
+  "version": "0.1",
+
+  "description": "Lets you change all the font family in a website to Blokk.",
+  "homepage_url": "https://www.carlofrinolli.it",
+  "icons": {
+    "48": "icons/no-rep-48.png"
+  },
+
+  "content_scripts": [
+     {
+       "js": ["blokkify.js"]
+     }
+   ]
+
+}
